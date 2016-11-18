@@ -1,6 +1,7 @@
 set nocompatible
 
 call plug#begin()
+Plug 'ap/vim-buftabline'
 Plug 'chriskempson/base16-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'pangloss/vim-javascript'
@@ -18,6 +19,7 @@ noremap j h
 
 colorscheme base16-default-dark
 
+set hidden
 set number
 set tabstop=4
 set shiftwidth=4
